@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string-array name="places">
+        <item>SERRATA</item>
+        <item>OLIVACEA</item>
+        <item>TRANQEBARICA</item>
+        <item>SERRATA</item>
+        <item>SERRATA</item>
+        <item>SERRATA</item>
+    </string-array>
+    <string-array name="place_desc">
+        <item>serrata often called mud crab has a shell colour varies from a deep, mottled green to very dark brown.
+        </item>
+        <item>This is the most valuable local crab sold in markets.</item>
+        <item>can grow very large (ca. 20 cm), usually with distinct purple claws.</item>
+        <item>serrata often called mud crab has a shell colour varies from a deep, mottled green to very dark brown.</item>
+        <item>serrata often called mud crab has a shell colour varies from a deep, mottled green to very dark brown.</item>
+        <item>serrata often called mud crab has a shell colour varies from a deep, mottled green to very dark brown.</item>
+    </string-array>
+    <string-array name="place_details">
+        <item>
+            Olivacea: 8.23917394E-15
+            Serrata: 0.999999349349
+            Tranqebarica: 8.23917394E-15
+        </item>
+        <item>
+            Olivacea: 8.23917394E-15
+            Serrata: 0.999999349349
+            Tranqebarica: 8.23917394E-15
+        </item>
+        <item>
+            Olivacea: 8.23917394E-15
+            Serrata: 0.999999349349
+            Tranqebarica: 8.23917394E-15
+        </item>
+        <item>
+            Olivacea: 8.23917394E-15
+            Serrata: 0.999999349349
+            Tranqebarica: 8.23917394E-15
+        </item>
+        <item>
+            Olivacea: 8.23917394E-15
+            Serrata: 0.999999349349
+            Tranqebarica: 8.23917394E-15
+        </item>
+        <item>
+            Olivacea: 8.23917394E-15
+            Serrata: 0.999999349349
+            Tranqebarica: 8.23917394E-15
+        </item>
+    </string-array>
+    <string-array name="place_locations">
+        <item>8 Rue Scribe, 75009 Paris, France</item>
+        <item>Piazza del Capitolo - 50122 Florence</item>
+        <item>New York City</item>
+        <item>2-3-1 Asakusa, Taitō-ku, Tokyo, Japan</item>
+        <item>At Meydanı No:7, 34122 Fatih/İstanbul, Turkey</item>
+        <item>Cape Town, South Africa</item>
+    </string-array>
+    <array name="place_avator">
+        <item>@drawable/a_avator</item>
+        <item>@drawable/b_avator</item>
+        <item>@drawable/c_avator</item>
+        <item>@drawable/d_avator</item>
+        <item>@drawable/e_avator</item>
+        <item>@drawable/f_avator</item>
+    </array>
+    <array name="places_picture">
+        <item>@drawable/c25</item>
+        <item>@drawable/c25</item>
+        <item>@drawable/c25</item>
+        <item>@drawable/c25</item>
+        <item>@drawable/c25</item>
+        <item>@drawable/c25</item>
+    </array>
+</resources>
