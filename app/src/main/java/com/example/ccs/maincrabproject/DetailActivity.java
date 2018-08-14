@@ -76,7 +76,7 @@ public class DetailActivity extends AppCompatActivity {
         ImageView placePicutre = (ImageView) findViewById(R.id.image);
         Picasso.get()
                 .load(postion.getFileurl())
-                .placeholder(R.mipmap.ic_launcher)
+                .placeholder(R.drawable.ic_crabby)
                 .fit()
                 .centerCrop()
                 .into(placePicutre);

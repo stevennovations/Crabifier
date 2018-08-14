@@ -164,7 +164,7 @@ public class CardContentFragment extends Fragment {
         public void onBindViewHolder(ViewHolder holder, int position) {
             Picasso.get()
                     .load(crabmodels.get(position).getFileurl())
-                    .placeholder(R.mipmap.ic_launcher)
+                    .placeholder(R.drawable.ic_crabby)
                     .fit()
                     .centerCrop()
                     .into(holder.picture);
