@@ -17,6 +17,12 @@ There will be 3 convolutional layer and will use softmax to get the probability 
 
 The training is set to 300 iterations but can be edited at training.
 
+To Run the application
+
+	1. Clone the Repository
+	2. Change the Folder Path of the Model in line 199
+	3. Run `python train.py`
+
 Some improvements.
 
 	- Augmentation of the images could be added to the training script
