@@ -1,0 +1,23 @@
+python label_image.py \
+--graph=/tmp/output_graph.pb --labels=/tmp/output_labels.txt \
+--input_layer=Placeholder \
+--output_layer=final_result \
+--image="../crabs/Olivacea/50 copy 5.jpg"
+
+
+tflite_convert \
+  --output_file=../foo_quant2_2.tflite \
+  --graph_def_file=../output_graph_3.pb \
+  --input_arrays=Placeholder \
+  --output_arrays=final_result 
+
+
+python retrain.py \
+--image_dir ../crabs \
+--output_graph=../output_graph_3.pb \
+--tfhub_module https://tfhub.dev/google/imagenet/mobilenet_v1_100_224/feature_vector/3
+
+python retrain.py \
+    --image_dir ../crabs \
+    --output_graph=../output_graph.pb \
+    --tfhub_module https://tfhub.dev/google/imagenet/mobilenet_v2_100_224/feature_vector/3
